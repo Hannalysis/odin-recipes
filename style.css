@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+/*Index Page and headers on all pages*/
+h1 {
+    background-color: blueviolet;
+    font-family: "Brush Script MT", sans-serif;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    border-style:groove;
+}
+
+.recipe-list {
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+}
+
+/* Recipe page focused styling*/
+
+h2,
+h3 {
+    font-family: "Lucida Handwriting", sans-serif;
+    font-variant: small-caps;
+}
+
+.ingredients,
+.steps,
+p {
+    font-family: Helvetica, Tahoma, sans-serif;
+}
+
+.ingredients {
+    font-style: italic;
+    list-style-type: square;
+}
