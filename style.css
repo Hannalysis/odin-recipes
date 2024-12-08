@@ -1,5 +1,9 @@
 body {
     background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 /*Index Page and headers on all pages*/
@@ -10,6 +14,11 @@ h1 {
     font-size: 36px;
     color: #ffffff;
     border-style:groove;
+}
+
+.page-container {
+    display: flex;
+    height: calc(100vh - 96.24px); /* full page - (content + margins + borders) */
 }
 
 #recipe-container {
@@ -36,6 +45,10 @@ h1 {
 
 /* Recipe page focused styling*/
 
+.recipe-page-container{
+    height: calc(100vh - 96.24px);
+}
+
 h2,
 h3 {
     font-family: "Lucida Handwriting", sans-serif;
@@ -51,4 +64,12 @@ p {
 .ingredients {
     font-style: italic;
     list-style-type: square;
+}
+
+img {
+    margin-left: 16px;
+    border-radius: 16px;
+    border-style: groove;
+    border-color: blueviolet;
+    
 }
